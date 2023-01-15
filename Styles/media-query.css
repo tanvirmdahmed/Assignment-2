@@ -1,0 +1,39 @@
+@media only screen and (max-width: 576px) {
+    .header{
+    overflow: ;
+    }
+  .navigation, .menu{
+    flex-direction: column;
+    gap: 20px;
+    width: 576px;
+    justify-content: center;
+    text-align: center;
+  } 
+  .banner-img{
+    width: 300px;
+    height: auto;
+  } 
+  .quick{
+    flex-direction: column;
+    }
+    .four-image{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .love-enjoy{
+        flex-direction: column;
+    }
+    .img-arc{
+        width: 576px;
+        height: auto;
+    }
+    .fact-detail{
+        text-align: center;
+    }
+    .items{
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    .contact{
+        flex-direction: column;
+    }
+}
